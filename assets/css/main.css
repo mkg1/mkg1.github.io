@@ -2102,7 +2102,8 @@
 	}
 
 		.wrapper.style1 {
-			padding: 0;
+			padding-top: 6em;
+			margin-bottom: 0em;
 		}
 
 		.wrapper.style2 {
@@ -2551,7 +2552,7 @@
 
 			header.special {
 				padding-top: 5.5em;
-				margin-bottom: 4em;
+				margin-bottom: 1em;
 			}
 
 	}
@@ -2586,7 +2587,7 @@
 
 			.wrapper {
 				margin-bottom: 4em;
-				padding: 4em 3em;
+				padding: 1em 3em;
 			}
 
 				.wrapper.style4 {
