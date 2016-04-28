@@ -1885,12 +1885,12 @@
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-dribbble {
+			.icon.circle.fa-linkedin {
 				background: #da83ae;
 				color: #fff;
 			}
 
-				.icon.circle.fa-dribbble:hover {
+				.icon.circle.fa-linkedin:hover {
 					background: #df93b8;
 				}
 
@@ -2609,7 +2609,7 @@
 		/* CTA */
 
 			#cta {
-				padding: 4em;
+				padding: 4em 4em 2em 4em;
 				background-attachment: scroll;
 			}
 
