@@ -2065,16 +2065,17 @@
 		input[type="submit"].special,
 		input[type="reset"].special,
 		.button.special {
-			background: #83d3c9;
+			/*background: #83d3c9;*/
 			border-color: #83d3c9;
-			color: #fff !important;
+			border-width: 3px;
+			color: #83d3cd !important;
 		}
 
 			input[type="button"].special:hover,
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			.button.special:hover {
-				background: #96dad1 !important;
+				background: #4A2544 !important;
 				border-color: #96dad1 !important;
 			}
 
@@ -2190,7 +2191,7 @@
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
-		padding: 1em 1.5em;
+		padding: 0em;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -2460,6 +2461,9 @@
 			}
 
 /* Main */
+	body.portfolio #main {
+		padding: 5em 0em 0em;
+	}
 
 	#main {
 		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
@@ -2472,6 +2476,7 @@
 		#main > :last-child {
 			margin-bottom: 0;
 		}
+
 
 		#main .sidebar section {
 			border-top: solid 1px rgba(124, 128, 129, 0.2);
@@ -3195,3 +3200,16 @@
 			}
 
 	}
+
+
+.project-header {
+	text-align: center;
+}
+
+.img-container {
+	margin-bottom: 1em;
+  width: 100%; /* or whatever is required */
+	height: 17em;
+  text-align: center; /* ensures the image is always in the h-middle */
+  overflow: hidden; /* hide the cropped portion */
+}
