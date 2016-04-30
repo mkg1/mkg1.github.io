@@ -3213,3 +3213,12 @@
   text-align: center; /* ensures the image is always in the h-middle */
   overflow: hidden; /* hide the cropped portion */
 }
+
+.profilepic {
+	width: 177px;
+	height: 266px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
