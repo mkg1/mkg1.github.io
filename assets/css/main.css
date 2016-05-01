@@ -3240,3 +3240,8 @@
 .row1 {
 	text-align: center;
 }
+
+.subheader {
+	font-style: italic;
+	font-size: .8em;
+}
