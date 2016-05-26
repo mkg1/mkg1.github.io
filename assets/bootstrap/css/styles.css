@@ -2,6 +2,9 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
 body { background: #f3f6fa; }
 
+a {
+  color: #83d3c9;
+}
 #timeline {
   background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
   background-position: top left, top right, bottom left, bottom right;
