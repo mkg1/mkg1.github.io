@@ -12,9 +12,9 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/style.scss" />
+		<link rel="stylesheet" href="assets/css/slideshow.css" />
 
 		<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
-
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -26,10 +26,10 @@
 					<h1 class="button special"><a href="index.html">MKG</a></h1>
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.html">Home</a></li>
-							<li><a href="#main" class="scrolly">About</a></li>
+							<li class="current"><a href="index.html" class="button special">Home</a></li>
+							<li><a href="#main" class="button special scrolly">About</a></li>
 							<li class="submenu">
-								<a href="#">Work</a>
+								<a href="#" class="button special">Work</a>
 								<ul>
 									<li><a href="portfolio.html">Projects</a></li>
 									<li><a href="resume-page.html">Resume</a></li>
@@ -51,22 +51,22 @@
 					-->
 					<div class="inner">
 
-						<header>
-							<h2>Molly<br/> Gehring</h2>
+						<header class="bleu">
+							<h2 class="bleu">Molly<br/> Gehring</h2>
 						</header>
-						<h2>Web Developer</h2>
+						<h2 class="bleu">Web Developer</h2>
 
 						<p>
 						<br />
-							<a href="https://twitter.com/mkgehring"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-							<a href="https://www.facebook.com/molly.gehring.1"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
-							<span class="icon fa-diamond"></span>
-							<a href="https://github.com/mkg1"><i class="fa fa-github-square fa-lg" aria-hidden="true"></i></a>
-							<a href="https://www.linkedin.com/in/molly-gehring-a220177b?trk=hp-identity-name"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+							<a href="https://twitter.com/mkgehring"><i class="fa fa-twitter-square fa-lg bleu" aria-hidden="true"></i></a>
+							<a href="https://www.facebook.com/molly.gehring.1"><i class="fa fa-facebook-square fa-lg bleu" aria-hidden="true"></i></a>
+							<span class="icon fa-diamond fa-lg bleu"></span>
+							<a href="https://github.com/mkg1"><i class="fa fa-github-square fa-lg bleu" aria-hidden="true"></i></a>
+							<a href="https://www.linkedin.com/in/molly-gehring-a220177b?trk=hp-identity-name"><i class="fa fa-linkedin-square fa-lg bleu" aria-hidden="true"></i></a>
 						</p>
 						<footer>
 							<ul class="buttons vertical">
-								<li><a href="#main" class="button scrolly">Find Out More</a></li>
+								<li><a href="#main" class="button scrolly bleu">Find Out More</a></li>
 							</ul>
 						</footer>
 
@@ -78,7 +78,7 @@
 				<article id="main">
 
 					<header class="special container">
-						<span class="icon fa-sun-o"></span>
+						<span class="icon fa-keyboard-o"></span>
 					</header>
 
 					<!-- One -->
@@ -89,16 +89,15 @@
 									<header>
 										<h2>Hello there! I'm Molly.</h2>
 									</header>
-									<p>I recently graduated from The Iron Yard - a 12-week immersive coding bootcamp. I began my career in Public Health after earning a degree from UNC Chapel Hill (Go Heels!). While I found the humanitarian aspects of the field very fulfilling, there was an element of problem-solving and creativity that I was missing. Inspired by developers I worked with at a previous job, I decided to make the switch and enrolled in The Iron Yard's Back-end Engineering course. I am excited to begin my career and am eager to learn and grow as a web developer.   </p>
+									<p>I'm a web developer based in Durham, NC. I primarily work in back-end technologies but have dabbled in (and am actively learning a handful of) front-end tools as well. </p>
+									<p>I got my start with programming afte attending a 12-week immersive coding bootcamp. I started out with a career in Public Health after earning a degree from UNC Chapel Hill (Go Heels!) but found that at work, I was constantly pestering the developers in the office next to me about the cool things they were building. I quickly realized I'd missed my calling and signed up for bootcamp and badabing badaboom! Here I am! I love what I do and remain eager to learn and grow as a web developer.</p>
+									<p>When I'm not nerding out over code, you can find me with a barbell in my hands (aspiring powerlifter over here) or studying for the next step in obtaining my hang gliding pilot license. </p>
 									<footer class="bio-footer">
-										<ul class="buttons">
-											<li><a href="#submain" class="button scrolly">Find Out More</a></li>
-										</ul>
 									</footer>
 
 								</div>
 								<div class="4u 12u(narrower) important(narrower)">
-									<img src="images/IMG_20150906_182945466.jpg" alt="" class="profilepic"/>
+									<img src="images/contact.jpg" alt="" class="profilepic"/>
 								</div>
 							</div>
 						</section>
@@ -122,7 +121,7 @@
 									<section>
 										<span class="icon featured fa-file-text-o"></span>
 										<header>
-											<h3><a href="Resume_Apr_2016.pdf" class="button" download="">Download Resume<i class="fa fa-download"></i></h3></a>
+											<h3><a href="Resume_2018_git.pdf" class="button" download="">Download Resume<i class="fa fa-download"></i></h3></a>
 										</header>
 										<p>Download a PDF of my resume.</p>
 									</section>
@@ -144,60 +143,79 @@
 						</section>
 
 					<!-- Three -->
-						<section class="wrapper style3 container special">
-
-							<header class="major">
-								<h2>Recent <strong>Projects</strong></h2>
-							</header>
-
-							<div class="row">
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="" class="image featured"><img src="images/15019128109_e447282930_b.jpg" alt="" /></a>
-										<header>
-											<h3>Who<strong>What</strong>Wear</h3>
-										</header>
-										<p>WhoWhatWear is an app for busy people who don't want to waste time deciding what to wear. Calendar integration tailors your daily clothing choice to the events du jour.</p>
-									</section>
-
-								</div>
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="https://www.foodstre.am" class="image featured"><img src="images/foodstream.png" alt="" /></a>
-										<header>
-											<h3>food<strong>stream</strong></h3>
-										</header>
-										<p>foodstream is an app aimed at eliminating food waste. The app provides a platform where organizations and institutions can offer excess, unmarketable, but still edible, food for other individuals to claim.</p>
-									</section>
-
-								</div>
+					<section class="wrapper style3 container special">
+						<header class="major">
+							<h2>My <strong>Work</strong></h2>
+						</header>
+						<div class="slideshow-container" style="width:75%; margin:auto">
+							<div class="mySlides fade">
+							  <div class="numbertext">1 / 3</div>
+							  <a href="portfolio.html"><img src="images/foodstream.png" style="width:100%"></a>
+							  <div class="text ribbon"><strong>Foodstre.am</strong> &lt;App&gt;</div>
 							</div>
-							<div class="row">
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="https://powerful-atoll-60409.herokuapp.com/" class="image featured"><img src="images/surveyoppossum.png" alt="" /></a>
-										<header>
-											<h3>Survey <strong>Oppossum</strong></h3>
-										</header>
-										<p>Survey Opposum is a collaboration between front- and back-end students. The app is intended to mimic Survey Monkey.</p>
-									</section>
-
-								</div>
-								<div class="6u 12u(narrower)">
-
-									<section>
-										<a href="https://serene-mountain-42623.herokuapp.com/" class="image featured"><img src="images/menu.png" alt="" /></a>
-										<header>
-											<h3>Restaurant <strong>Menu</strong></h3>
-										</header>
-										<p>This app was an assignment intended to focus on back-end rails behavior while practicing front-end design. Users can build and edit courses to create a full restaurant menu. </p>
-									</section>
-
-								</div>
+							<div class="mySlides fade">
+							  <div class="numbertext">2 / 3</div>
+							  <img src="images/surveyoppossum.png" style="width:100%">
+							  <div class="text ribbon"><strong>Survey Oppossum</strong> &lt;App&gt;</div>
 							</div>
+							<div class="mySlides fade">
+								<div class="numbertext">3 / 3</div>
+								<img src="images/mhsa.png" style="width:100%">
+								<div class="text ribbon"><strong>MyHealthStyleApp</strong> &lt;App&gt;</div>
+							</div>
+							<div class="mySlides fade">
+							  <div class="numbertext">4 / 3</div>
+							  <img src="images/iot.jpg" style="width:100%">
+							  <div class="text ribbon"><strong>IoT + Hardware</strong> &lt;Dabblings&gt;</div>
+							</div>
+							<div class="mySlides fade">
+							  <div class="numbertext">5 / 3</div>
+							  <img src="images/gg.png" style="width:100%">
+							  <div class="text ribbon"><strong>Glitteratti Gang</strong> &lt;Site&gt;</div>
+							</div>
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						</div>
+						<br>
+
+						<div style="text-align:center">
+						  <span class="dot" onclick="currentSlide(1)"></span>
+						  <span class="dot" onclick="currentSlide(2)"></span>
+						  <span class="dot" onclick="currentSlide(3)"></span>
+							<span class="dot" onclick="currentSlide(4)"></span>
+							<span class="dot" onclick="currentSlide(5)"></span>
+
+						</div>
+
+						<script>
+						var slideIndex = 1;
+						showSlides(slideIndex);
+
+						function plusSlides(n) {
+						  showSlides(slideIndex += n);
+						}
+
+						function currentSlide(n) {
+						  showSlides(slideIndex = n);
+						}
+
+						function showSlides(n) {
+						  var i;
+						  var slides = document.getElementsByClassName("mySlides");
+						  var dots = document.getElementsByClassName("dot");
+						  if (n > slides.length) {slideIndex = 1}
+						  if (n < 1) {slideIndex = slides.length}
+						  for (i = 0; i < slides.length; i++) {
+						      slides[i].style.display = "none";
+						  }
+						  for (i = 0; i < dots.length; i++) {
+						      dots[i].className = dots[i].className.replace(" active", "");
+						  }
+						  slides[slideIndex-1].style.display = "block";
+						  dots[slideIndex-1].className += " active";
+						}
+
+						</script>
 
 							<footer class="major">
 								<ul class="buttons">
@@ -214,16 +232,16 @@
 				<section id="cta">
 
 					<header>
-						<h2>Interested in working together?</h2>
-						<p>Great! Me too. Let's chat!<br />
-						I am currently seeking opportunities to develop my back-end engineering skills and am always willing to learn new skills.<br />
+						<h2 class="bleu">Interested in working together?</h2>
+						<p class="bleu">Great! Me too. Let's chat!<br />
+						I am currently seeking opportunities to develop either my back-end or front-end skills and am always willing to learn new things.<br />
 						</p>
 					</header>
 					<footer>
 						<ul class="buttons">
 							<li><a href="mailto:mkgehring1@gmail.com" class="button special">Email Me</a></li>
 						</ul>
-						 <p>OR connect with me via social media...</p>
+						 <p class="bleu">OR connect with me via social media...</p>
 					</footer>
 
 				</section>
