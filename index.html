@@ -17,8 +17,24 @@
 		<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+<style>
+
+		#myVideo {
+		  position: fixed;
+		  /* right: 50px; */
+		  /* bottom: 50px; */
+		  min-width: 100%;
+		  min-height: 100%;
+			z-index: -1;
+
+		}
+		</style>
 	</head>
 	<body class="index">
+		<video autoplay muted loop id="myVideo">
+		  <source src="images/ezgif.com-gif-maker.mp4" type="video/mp4">
+		  Your browser does not support HTML5 video.
+		</video>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -97,7 +113,7 @@
 
 								</div>
 								<div class="4u 12u(narrower) important(narrower)">
-									<img src="images/contact.jpg" alt="" class="profilepic"/>
+									<img src="images/contact2.jpg" alt="" class="profilepic"/>
 								</div>
 							</div>
 						</section>
@@ -112,7 +128,6 @@
 										<header>
 											<h3><a href="resume-page.html" class="button">View Resume</h3></a>
 										</header>
-										<p>Click to view resume page.</p>
 									</section>
 
 								</div>
@@ -123,7 +138,6 @@
 										<header>
 											<h3><a href="Resume_2018_git.pdf" class="button" download="">Download Resume<i class="fa fa-download"></i></h3></a>
 										</header>
-										<p>Download a PDF of my resume.</p>
 									</section>
 
 								</div>
@@ -134,7 +148,6 @@
 										<header>
 											<h3><a href="portfolio.html" class="button">Portfolio</h3></a>
 										</header>
-										<p>See full project descriptions (or keep scrolling for an overview).</p>
 									</section>
 
 								</div>

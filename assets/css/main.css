@@ -2069,14 +2069,14 @@
 			/*background: #83d3c9;*/
 			border-color: #83d3c9;
 			border-width: 3px;
-			color: #83d3cd !important;
+			color: #fffaf5 !important;
 		}
 
 			input[type="button"].special:hover,
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			.button.special:hover {
-				background: #4A2544 !important;
+				background: #645a64 !important;
 				border-color: #83d3cd !important;
 			}
 
@@ -2105,7 +2105,7 @@
 
 		.wrapper.style1 {
 			padding-top: 2em;
-			margin-bottom: 0em;
+			margin-bottom: 5em;
 		}
 
 		.wrapper.style2 {
@@ -2186,7 +2186,7 @@
 	}
 
 	#header {
-		background: rgba(124, 128, 129, 0.2);
+		background: rgba(100, 90, 100, 0.8);
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
@@ -2304,14 +2304,14 @@
 /* Dropotron */
 
 	.dropotron {
-		background: #4A2544;
+		background: #645a64;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		line-height: 2.25em;
 		min-width: 13em;
 		padding: 1em 0;
 		text-transform: uppercase;
 		margin-top: calc(-1em + 1px);
-		color: #83d3cd;
+		color: #fffaf5;
 	}
 
 		.dropotron.level-0 {
@@ -2397,9 +2397,12 @@
 	}
 
 	#banner {
+		position: relative;
+		bottom: 50px;
+		/* opacity: .3; */
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/durm2.png");
+		/* background-color: #645862; */
+		/* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/durm2.png"); */
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2418,7 +2421,7 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			background: rgba(100, 90, 100, 0.8);
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
@@ -2473,6 +2476,7 @@
 		background-repeat: no-repeat;
 		background-size: 25em;
 		padding: 7em 0;
+		background-color: rgb(240, 244, 249);
 	}
 
 		#main > :last-child {
@@ -2671,6 +2675,7 @@
 				}
 
 				.wrapper.style1 {
+					margin-bottom: 5em;
 					padding: 0 2.5em;
 				}
 
@@ -2899,7 +2904,7 @@
 					}
 
 					#navButton .toggle:after {
-						background: rgba(163, 169, 170, 0.75);
+						background: rgba(100, 90, 100, 0.8);
 						border-radius: 2px;
 						content: '';
 						height: 40px;
@@ -3111,6 +3116,7 @@
 				}
 
 				.wrapper.style1 {
+					margin-bottom: 5em;
 					padding: 0 1.5em;
 				}
 
@@ -3248,5 +3254,5 @@
 }
 
 .bleu {
-	color: #83d3cd;
+	color: #fffaf5;
 }
