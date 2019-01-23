@@ -1,0 +1,26 @@
+@-webkit-keyframes twinkly {
+  from {opacity: 1;}
+  to {opacity: 0.4;}
+}
+
+@-moz-keyframes twinkly {
+  from {opacity: 1;}
+  to {opacity: 0.4;}
+}
+
+@-ms-keyframes twinkly {
+  from {opacity: 1;}
+  to {opacity: 0.4;}
+}
+
+@keyframes twinkly {
+  from {opacity: 1;}
+  to {opacity: 0.4;}
+}
+
+.twinkle {
+  -webkit-animation: twinkly 1.5s alternate infinite;
+  -moz-animation: twinkly 1.5s alternate infinite;
+  -ms-animation: twinkly 1.5s alternate infinite;
+  animation: twinkly 1.5s alternate infinite;
+}
