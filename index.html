@@ -14,6 +14,7 @@
 		<link rel="stylesheet" href="assets/css/style.scss" />
 		<link rel="stylesheet" href="assets/css/slideshow.css" />
 
+
 		<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -35,6 +36,14 @@
 		  <source src="images/ezgif.com-gif-maker.mp4" type="video/mp4">
 		  Your browser does not support HTML5 video.
 		</video>
+		<script>
+
+var blink_speed = 1000; // every 1000 == 1 second, adjust to suit
+var t = setInterval(function () {
+    var ele = document.getElementById('Arrow');
+    ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+}, blink_speed);
+</script>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -74,7 +83,7 @@
 
 						<footer>
 							<ul class="buttons vertical">
-								<li><a href="#main" class="button scrolly bleu">Find Out More</a></li>
+								<li><a href="#main" class="button scrolly bleu"><div id="Arrow"><i class="fa fa-arrow-down"></i> <i class="fa fa-arrow-down"></i> <i class="fa fa-arrow-down"></i></div></a></li>
 							</ul>
 							<p>
 							<br />
@@ -201,6 +210,7 @@
 						</div>
 
 						<script>
+
 						var slideIndex = 1;
 						showSlides(slideIndex);
 
