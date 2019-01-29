@@ -1499,6 +1499,7 @@ input, select, textarea {
 	#work .row {
 		border-bottom: solid;
 		border-color: gray;
+		border-bottom-width: 1px;
 		margin-bottom: 1.5em;
 		padding-bottom: 1.5em;
 	}
