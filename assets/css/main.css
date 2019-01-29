@@ -1479,6 +1479,32 @@ input, select, textarea {
 	#work h3{
 		color: gray;
 		text-align: center;
+		padding-bottom: .4em;
+	}
+
+	#work .code {
+		padding: 1em;
+	}
+
+	#work .code p {
+		margin-bottom: .5em;
+	}
+
+	#work .image {
+		border: solid;
+		border-color: gray;
+		border-width: 1px;
+	}
+
+	#work .row {
+		border-bottom: solid;
+		border-color: gray;
+		margin-bottom: 1.5em;
+		padding-bottom: 1.5em;
+	}
+
+	#work p.last {
+		margin-bottom: 0em;
 	}
 /* Table */
 
