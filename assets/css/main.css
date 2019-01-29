@@ -1469,6 +1469,13 @@ input, select, textarea {
 	article#resume .contact {
 		margin-bottom: 2em;
 	}
+
+/*Work*/
+	#work p {
+		line-height: 1em;
+		font-size: 12pt;
+	}
+
 /* Table */
 
 	table {
