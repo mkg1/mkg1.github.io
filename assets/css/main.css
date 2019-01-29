@@ -1476,6 +1476,10 @@ input, select, textarea {
 		font-size: 12pt;
 	}
 
+	#work h3{
+		color: gray;
+		text-align: center;
+	}
 /* Table */
 
 	table {
