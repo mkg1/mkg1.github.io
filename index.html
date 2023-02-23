@@ -12,7 +12,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
 	</head>
 	<body class="is-preload">
 
@@ -24,8 +23,7 @@
 						<a href="#" class="icon fa-home"><span>Home</span></a>
 						<a href="#profile" class="icon fa-user"><span>About</span></a>
 						<a href="#work" class="icon fa-briefcase"><span>Work</span></a>
-						<a href="#resume" class="icon fa-file-text-o"><span>Resume</span></a>
-						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+						<a href="#blog" class="icon fa-paragraph"><span>Blog</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -34,79 +32,122 @@
 						<!-- Landing -->
 							<article id="home" class="panel intro">
 								<header style="text-align: center;">
-									<h1 class="resume">Molly K <strong>Gehring</strong></h1>
-									<p><i>Software Developer</i></p>
-									<p>Dependable Data &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp Daring Design</p>
+									<h1 class="blog">Molly <strong>Gehring</strong></h1>
+									<p><i>Software Engineer</i></p>
+									<div class="contact">
+										<ul class="icons">
+											<li><a href="https://twitter.com/mkgehring" class="icon circle fa-twitter fa-lg contact" target="_blank"><span class="label">Twitter</span></a></li>
+											<li><a href="https://github.com/mkg1" class="icon circle fa-github fa-lg contact" target="_blank"><span class="label">Github</span></a></li>
+											<li><a href="https://www.linkedin.com/in/mollygehring" class="icon circle fa-linkedin fa-lg contact" target="_blank"><span class="label">LinkedIn</span></a></li>
+										</ul>
+									</div>	
 								</header>
-								<a href="#profile" class="jumplink pic">
-									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
-									<img src="images/it_me2.png" alt="" />
-								</a>
+								<div class="intro-button">
+									<a href="#profile" class="pic">
+										<span class="arrow icon fa-chevron-right"></span>
+										<!-- <img src="images/doggo.png" alt="" /> -->
+									</a>
+								</div>
 							</article>
 
 							<!-- Me -->
 								<article id="profile" class="panel about">
 									<div class="wrapper about">
-											<div id="leftblurb">
-
-												<header>
-													<h2 class="resume">Hello there! I'm Molly.</h2>
-												</header>
-												<p>I'm a developer with 5+ years experience of back-end and front-end work. In my current role, I primarily work in back-end technologies but outside of work, I have dabbled in (and am actively learning) a handful of front-end tools as well. </p>
-												<p>I got my start with programming after attending a 12-week immersive coding bootcamp. I started out with a career in Public Health after earning a degree from UNC Chapel Hill (Go Heels!) but found that at work, I was constantly pestering the developers in the office next to me to let me help them work on whatever cool app or website they were building. I quickly realized I'd missed my calling and signed up for bootcamp and badabing badaboom! Here I am! I love what I do and remain eager to learn and grow as a developer.</p>
-												<p>When I'm not nerding out over code, you can find me with a barbell in my hands (aspiring powerlifter over here) or studying for the next step in obtaining my hang gliding pilot license. </p>
-												<footer class="bio-footer">
-												</footer>
-
-											</div>
-											<div id="rightblurb">
-												<img src="images/paddleboard.png" alt="" class="profilepic"/>
-											</div>
+										<div id="leftblurb">
+											<header>
+												<h2 class="blog">Hello there! I'm Molly.</h2>
+											</header>
+											<p>Welcome to my site! I’m a full-stack software engineer, explorer, and life-long learner, among other things. I have experience developing apps for both large, established research institutions and small, speedy startups, as well as serving as a technical co-founder. As a former public health student turned software engineer, I am inspired to create products that make the world a better place, both for people and our environment.</p>
+											<p>When I’m not at my desk, you might run into me on the hiking trail or climbing wall or in the sky, zooming around in a hang glider. <span class="icon fa-paper-plane"></spoan></p>
 										</div>
+										<div id="rightblurb">
+											<img src="images/inatree.jpeg" alt="" class="profilepic"/>			
+										</div>
+									</div>
+									<div class="nav-arrows">
+										<a href="#"><span class="icon fa-chevron-left"></span></a>
+										<a href="#work"><span class="icon fa-chevron-right"></span></a>
+									</div>
 								</article>
 
 						<!-- Work -->
 						<article id="work" class="panel">
 							<header>
-								<h2 class="resume">Work</h2>
+								<h2 class="blog">Projects / Work</h2>
+								<div class="center-button">
+									<a href="https://github.com/mkg1" target="_blank" class="button special">Github</a>
+								</div>
 							</header>
 							<div class = "row">
-								<p style="width: 100%; text-align: center;">
-									Apps and projects I have worked on...
-								</p>
 							</div>
 							<section>
 								<div class="row">
 									<div class="col-6 col-6-medium col-12-small">
-										<h3>Duke University</h3>
-										<p>I currently work for Duke University's Research Application Development (RAD) team. In a university setting, where acronyms are abundant, I'm proud to belong to the RAD-est. My team supports a suite of ~10 custom-built apps supporting research compliance at Duke.</p>
-										<p>Our customers (compliance offices for the University and School of Medicine) require specific reporting and tracking tools for their business operations. We work with our customers to build the tools they need and provide technical and user support when needed.</p>
-										<p class="last">Most of our apps use a Rails back-end and various javascript/front-end frameworks. Recently, we've been in the process of upgrading our apps to more current technologies, using Rails 5 and new front-end frameworks. I've been able to hone front-end skills through work with React, Bootstrap, and Materialize in some of our apps. </p>
+										<h3>Plastic Raindrop</h3>
+										<p>We have a plastic problem on the planet. We are all aware of it to some degree, and yet we continue to generate and use plastic at an unsustainable rate. After reading an article stating that rainwater is no longer safe to drink anywhere on the planet as a result of microplastic infiltration, I was inspired to create Plastic Raindrop. The site offers guidance for consumers moving away from plastic usage and reviews plastic-free products.</p>
 									</div>
 									<div class="col-6 col-6-medium col-12-small">
-										<a href="https://medschool.duke.edu/research/research-support-offices/ori-application-support/compliance" class="image fit" target="_blank"><img src="images/duke.png" alt=""></a>
-										<div class="code">
-											<p style="font-style: italic;">Due to the confidential nature of the work and firewalls in place by the University, I am not able to provide a link to our Gitlab repositories. My older work can be viewed on my <a href="https://github.com/mkg1" target="_blank">Github</a> account.</p>
+										<div class="image fit">
+											<img src="images/ontheway.jpg" />
 										</div>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-6 col-6-medium col-12-small">
-										<h3>Instructor: SQL</h3>
+										<div class="image fit">
+											<img src="images/ontheway.jpg" />
+										</div>
+									</div>
+									<div class="col-6 col-6-medium col-12-small">
+										<h3>Explain Like I'm Human</h3>
+										<p>After a particularly rocky switch to a new team that used languages and tools I was relatively unfamiliar with, I decided to start a blog (said everyone and their grandma!) to document the things I struggled with. For the topics I was learning, I'd been finding it particularly difficult to identify learning resources that dealt with technical concepts at the right level of abstraction for someone like me who was not a complete programming beginner but also not a technical whiz kid. My blog attemtps to occupy that liminal space between hyper-specific technical examples and super-high level, conceptual jargon.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6 col-6-medium col-12-small">
+										<h3>Policygenius</h3>
+										<p>As a software engineer for Policygenius, I work on apps that help people get the financial protection they need. We are constantly interating on our products and services to ensure the best experience for our customers and to bring the insurance industry into the modern era.</p>
+									</div>
+									<div class="col-6 col-6-medium col-12-small">
+										<div class="image fit">
+											<img src="images/pg.png" />
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6 col-6-medium col-12-small">
+										<div class="image fit">
+											<img src="images/impacked_logo.png" />
+										</div>
+									</div>
+									<div class="col-6 col-6-medium col-12-small">
+										<h3>Impacked Packaging</h3>
+										<p>Impacked Packaging is an online, b2b marketplace for sourcing sustainable, primary packaging. As technical co-founder, I worked with product and business experts to outline data and design requirements and build out the initial marketplace prototype.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6 col-6-medium col-12-small">
+										<h3>Duke University</h3> 
+										<p>Duke University and School Of Medicine compliance offices require specific reporting and tracking tools for their business operations. My team worked with these offices to build a suite of custom apps to support day-to-day operations and provided technical assistance. Most apps were built on a Rails back-end with various javascript/front-end frameworks (React, Bootstrap, and Materialize).</p>
+									</div>
+									<div class="col-6 col-6-medium col-12-small">
+										<a href="https://medschool.duke.edu/research/research-support-offices/ori-application-support/compliance" class="image fit" target="_blank"><img src="images/duke.png" alt=""></a>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-6 col-6-medium col-12-small">
 										<a href="https://prezi.com/p/wt9wfdxfd2fk/data-manipulation-using-sql/" class="image fit" target="_blank"><img src="images/sql_prez.png" alt=""></a>
 									</div>
 									<div class="col-6 col-6-medium col-12-small">
-										<p>I recently volunteered to teach a class through Duke's Innovation Co-Lab on "Data Manipulation Using SQL". The class was open to all students and staff and was intended to be a primer on database design and the basics of querying and manipulating data.</p>
-										<p class="last">An overview of the curriculum I developed/taught can be viewed via the <a href="https://prezi.com/p/wt9wfdxfd2fk/data-manipulation-using-sql/" target="_blank">presentation</a>. </p>
+										<h3>Instructor: SQL</h3>
+										<p>Duke's Innovation Co-Lab is a creativity incubator, aimed at bringing technology resources and programming to the Duke community. The Co-Lab offers classes open to all students and faculty. I developed/taught a class on "Data Manipulation Using SQL", intended to be a primer on database design and the basics of querying and manipulating data.</p>
+										<p class="last"> <a href="https://prezi.com/p/wt9wfdxfd2fk/data-manipulation-using-sql/" target="_blank">Presentation</a> can be viewed here. </p>
 									</div>
 								</div>
-
 								<div class="row">
 									<div class="col-6 col-6-medium col-12-small">
 										<h3>Glitteratti Gang</h3>
-										<p>Side project I'm currently working on for Glitteratti Gang of NYC. This fun site is allowing me to veer from my usual back-end developer role and try my hand at some front-end design work and mobile development.</p>
-										<p>For this app, I opted to go with Laravel and Vue.js. The app is still under development as I take my time learning two new technologies.</p>
-										<p class="last">Keep an eye out for the Glitteratti Gang, sprinkling a little sparkle at parties and flea markets around NYC!</p>
+										<p>A fun side project I worked on for Glitteratti Gang of NYC while trying my hand at front-end development and learning new tools. Built on Vue.js. Keep an eye out for the Glitteratti Gang, sprinkling a little sparkle at parties and flea markets around NYC!</p>
 									</div>
 									<div class="col-6 col-6-medium col-12-small">
 										<a class="image fit"><img src="images/gg.png" alt=""></a>
@@ -114,19 +155,12 @@
 								</div>
 								<div class="row">
 									<div class="col-6 col-6-medium col-12-small">
-										<h3>Foodstream</h3>
 										<a class="image fit"><img src="images/foodstream.png" alt=""></a>
-										<div class="code">
-											<p>foodstream is supported with a Rails API on the back-end. View the code on Github:</p>
-											<p><a href="https://github.com/foodstream/foodstream" target="_blank" class="button small">Github</a></p>
-											<p>foodstream's front-end is built using Angular. View the front-end code: </p>
-											<p><a href="https://github.com/foodstream/foodstreamAngular" target="_blank" class="button small">Github</a></p>
-										</div>
 									</div>
 									<div class="col-6 col-6-medium col-12-small">
-										<p>Upwards of 2000 tons of food intended for consumption are wasted each day in North Carolina alone! The goal of foostream is to eliminate this excessive food waste problem, and not just in NC. As the slogan indicates, foodstream is an app for people who believe edible food should be eaten. </p>
-										<p>foodstream was developed as a final project for The Iron Yard. The app targets primarily institutional users who have excess, unmarketable food that is still edible. The app creates a platform where users can offer this excess food and other individuals can claim it.</p>
-										<p class="last">As a back-end developer for the project, I helped build in several key features aimed at enhancing user-friendliness: 1) built-in messaging feature that sends a corresponding email for each message sent, 2) map directions via Google Maps integration, and 3) calendar reminders for the food that's been claimed via iCal integration.</p>
+										<h3>Foodstream</h3>
+										<p>Foodstream was developed as a final project for The Iron Yard with the goal of eliminating excessive food waste. The app targeted primarily institutional users with excess, unmarketable, but still edible, food. The app created a platform where users could offer their excess food and other individuals could claim it.</p>
+										<p>As a back-end developer for the project, I helped build out a messaging feature, map directions via Google Maps integration, and calendar reminders.</p>
 									</div>
 								</div>
 								<div class="row">
@@ -141,25 +175,17 @@
 								</div>
 								<div class="row">
 									<div class="col-6 col-6-medium col-12-small">
-										<h3>MyHealthStyleApp</h3>
-										<a href="https://www.myhealthstyleapp.com/" class="image fit" target="_blank"><img src="images/mhsa.png" alt=""></a>
-										<div class="code">
-											<p style="font-style: italic;">Signing an NDA prevents me from posting any of the app's code here. My other work can be viewed on my <a href="https://github.com/mkg1" target="_blank">Github</a> account.</p>
-										</div>
+										<a href="" class="image fit" target="_blank"><img src="images/mhsa.png" alt=""></a>
 									</div>
 									<div class="col-6 col-6-medium col-12-small">
-										<p>MyHealthStyle is an app that takes a holistic approach to helping users reach their health goals through positive behavior change. I did some free-lance work on the app while it was in the start-up phase.</p>
-										<p class="last">The app was built primarily using Rails and as one of the developers spinning up the initial prototype, I was tasked with selecting and integrating technologies that would support the various features required for customers to interact with health coaches and customer support. This included: texting capabilities, a chat feature, customer support chat, and a shopping cart/payment feature. </p>
+										<h3>MyHealthStyleApp</h3>
+										<p>MyHealthStyle was designed to help users take a holistic approach to reaching health goals through positive behavior change. As a freelancer working on the initial Rails prototype, I was tasked with researching and implementing technologies to support customer interactions with health coaches and customer support. This included: texting capabilities, a chat feature, customer support chat, and a shopping cart/payment feature.</p>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-6 col-6-medium col-12-small">
 										<h3>Survey Opossum</h3>
-										<p class="last">Survey Opossum is the result of a collaboration between the front-end and back-end engineering classes at The Iron Yard.  The app was built over the course of a weekend and allows users to create full surveys that other users can take. </p>
-										<div class="code">
-											<p>Survey Opossum was built using Rails. View the full code:</p>
-											<p><a href="https://github.com/Inquiring-Opossums/survey_opossum" target="_blank" class="button small">Github</a></p>
-										</div>
+										<p class="last">Survey Opossum was the result of a collaboration between the front-end and back-end engineering classes at The Iron Yard. The app was built over the course of a weekend and allows users to either create or take surveys.</p>
 									</div>
 									<div class="col-6 col-6-medium col-12-small">
 										<a class="image fit"><img src="images/surveyoppossum.png" alt=""></a>
@@ -167,194 +193,52 @@
 								</div>
 								<div class="row">
 									<div class="col-6 col-6-medium col-12-small">
-										<h3>Culture Shock</h3>
 										<a class="image fit"><img src="images/code.png" alt=""></a>
 									</div>
 									<div class="col-6 col-6-medium col-12-small">
-										<p class="last">Culture Shock is the result of a weekend assignment for The Iron Yard. The app allows users to specify a region of the world and in return, they are provided a recipe and a playlist from that region, creating a unique cultural experience. The app accomplishes this by consuming two APIs.</p>
-										<div class="code">
-											<p>Click below to see the full source code on Github.</p>
-											<p><a href="https://github.com/The-Magnificent-Shatterstars/culture-shock" target="_blank" class="button small">Github</a></p>
-										</div>
+										<h3>Culture Shock</h3>
+										<p class="last">Culture Shock is the result of a coding bootcamp weekend assignment on API consumption. The app allows users to specify a region of the world and in return, they are provided a recipe and a playlist from that region, creating a unique cultural experience.</p>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-6 col-6-medium col-12-small">
 										<h3>Usability Testing</h3>
-										<p>In addition to my day job as a back-end engineer, I also like to give my right brain a bit of exercise by reviewing websites for design and usability. I've completed over 250 usability tests for various apps and websites.</p>
-										<p class="last">The usability tests I've completed cover products in all different stages of the development lifecycle. I've reviewed everything from wireframes to beginning-stage prototypes to apps already in production. Reviewing sites/apps has given me a better understanding of what constitutes good design and how important a good user experience to a product's success.</p>
+										<p>In addition to day-to-day development, I have completed over 250 usability tests for various apps and websites, cover products in all different stages of the development lifecycle. I've reviewed everything from wireframes to beginning-stage prototypes to apps already in production. Reviewing sites/apps has given me a better understanding of what constitutes good design and how important a solid user experience is to a product's success.</p>
 									</div>
 									<div class="col-6 col-6-medium col-12-small">
 										<a class="image fit"><img src="images/user_testing.png" alt=""></a>
 									</div>
 								</div>
 							</section>
+							<div class="nav-arrows">
+								<a href="#profile"><span class="icon fa-chevron-left"></span></a>
+								<a href="#blog"><span class="icon fa-chevron-right"></span></a>
+							</div>
 						</article>
 
-
-						<!-- Resume -->
-							<article id="resume" class="panel">
-
+						<!-- Blog -->
+							<article id="blog" class="panel">
 								<div id="page-wrapper">
-
 									<!-- Main -->
-										<article id="main">
-
-											<header>
-												<h2 class="resume">Work <strong class="resume">Experience</strong></h2>
-											</header>
-
-											<!-- One -->
-												<section class="wrapper style4 container">
-
-													<!-- Content -->
-														<div>
-															<section>
-																<header>
-																	<h3>Duke University</h3>
-																</header>
-																<p class="subheader">Durham, NC&nbsp&nbsp|&nbsp&nbspJune 2016 - present&nbsp&nbsp|&nbsp&nbspSenior Back-end Developer </p>
-																<ul>
-																	<li>Develop, maintain, and upgrade a suite of web and mobile Ruby/Rails and Javascript/React applications supporting Duke’s research community and administrative offices.</li>
-																	<li>Maintain Oracle databases and run queries to generate reports and data analyses for customers.</li>
-																	<li>Design APIs to tie in with external university resources and services.</li>
-																	<li>Follow Agile development practices to improve user experience by delivering timely upgrade requests and weekly feature additions.</li>
-																	<li>Provide primary tech support to customers and troubleshoot errors.</li>
-																</ul>
-
-																<header>
-																	<h3>Instructor</h3>
-																</header>
-																<p class="subheader">Durham, NC&nbsp&nbsp|&nbsp&nbspJun - Sept 2018&nbsp&nbsp|&nbsp&nbspDeveloper </p>
-																<ul>
-																	<li>Taught class on programming micro controllers and IOT for Duke’s TIP summer program</li>
-																	<li>Developed curriculum and taught class on “Data Manipulation Using SQL” for Duke staff and students. </li>
-																</ul>
-
-																<header>
-																	<h3>MyHealthStyle App</h3>
-																</header>
-																<p class="subheader">Durham, NC&nbsp&nbsp|&nbsp&nbspApril 2016 - July 2016&nbsp&nbsp|&nbsp&nbspFull-stack Developer (freelance)</p>
-																<ul>
-																	<li>Designed/developed initial app prototypes for health-focused startup. </li>
-																	<li>Worked with company founder to determine necessary technologies to integrate with back and front ends for fully-functioning prototype including database, messaging, SMS, and a shopping cart.</li>
-																</ul>
-
-																<header>
-																	<h3>Foodstream</h3>
-																</header>
-																<p class="subheader">Durham, NC&nbsp&nbsp|&nbsp&nbspApril 2016&nbsp&nbsp|&nbsp&nbspBack-end Developer </p>
-																<ul>
-																	<li>As final project for code school, developed back-end for mobile/web app aimed at decreasing food waste.</li>
-																	<li>Built RESTful Rails API, geolocation functionality, and messaging platform to integrate with AngularJS front-end. </li>
-																</ul>
-																<header>
-																	<h3>U.S. Environmental Protection Agency</h3>
-																</header>
-																<p class="subheader">RTP, NC&nbsp&nbsp|&nbsp&nbspSept 2014 - Jan 2016&nbsp&nbsp|&nbsp&nbspIndependent Contractor </p>
-																<ul>
-																	<li>Assisted in the administrative functions of the National Health and Environmental Effects Lab.</li>
-																	<li>Provided admin support and maintained research databases for the Institutional Animal Care and Use Committee.</li>
-																</ul>
-
-																<header>
-																	<h3>Clinical Tools, Inc.</h3>
-																</header>
-																<p class="subheader">Chapel Hill, NC&nbsp&nbsp|&nbsp&nbspNov 2013 - Sept 2014&nbsp&nbsp|&nbsp&nbspResearch & Administrative Assistant </p>
-																<ul>
-																	<li>Coded custom Javascript/jQuery interfaces for education platform.</li>
-																	<li>Assisted with administering usability tests; helped customers troubleshoot technical problems.</li>
-																	<li>Researched and helped develop online medical training programs.</li>
-																</ul>
-																<header>
-																	<h3>Gillings School of Public Health</h3>
-																</header>
-																<p class="subheader">UNC Chapel Hill&nbsp&nbsp|&nbsp&nbspJan 2012-May 2012&nbsp&nbsp|&nbsp&nbspResearch Assistant </p>
-																<ul>
-																	<li><strong>Coronell Lab</strong> — Aided in water treatment research for NC’s Castle Hayne and Peedee Aquifers, using various membrane filtration and washing techniques.</li>
-																	<li><strong>Sobsey Lab</strong> — Evaluated chemical methods of microbial reduction in water treatment.</li>
-																</ul>
-
-																<header>
-																	<h3>The Environmental Finance Center</h3>
-																</header>
-																<p class="subheader">Chapel Hill, NC&nbsp&nbsp|&nbsp&nbspJan 2011 - Jan 2012&nbsp&nbsp|&nbsp&nbspData Analyst & Office Manager </p>
-																<ul>
-																	<li>Collected and analyzed data for the Annual NC and GA Water and Sewer Rates Survey.</li>
-																	<li>Promoted to Office Manager at conclusion of Rates Surveys.</li>
-																</ul>
-															</section>
-														</div>
-
-
-
-												</section>
-
-												<header>
-													<h2 class="resume"> <strong>Education</strong></h2>
-												</header>
-												<section class="wrapper style4 container">
-
-													<!-- Content -->
-														<div class="content">
-															<section>
-																<header>
-																	<h3>The Iron Yard</h3>
-																</header>
-																<p class="subheader">Durham, NC&nbsp&nbsp|&nbsp&nbspFeb 2016 - Apr 2016&nbsp&nbsp|&nbsp&nbspBack-End Engineering with Ruby on Rails </p>
-																<p><i>Completed 12-week immersive coding program, with a focus on server-side technologies.</i></p>
-																<header>
-																	<h3>The University of North Carolina at Chapel Hill</h3>
-																</header>
-																<p class="subheader">Chapel Hill, NC&nbsp&nbsp|&nbsp&nbspGraduated 2012&nbsp&nbsp|&nbsp&nbspBSPH </p>
-																<p><i>Earned Bachelor of Science in Public Health with a focus on Environmental Health Science.</i></p>
-															</section>
-														</div>
-												</section>
-
-										<!-- Two -->
-											<section class="wrapper style1 container special">
-												<div class="row1">
-													<section>
-														<header>
-															<h3 class="contact">Download Resume PDF</h3>
-														</header>
-														<footer>
-															<div class="contact">
-																<a href="Gehring_Resume_6_2020_site.pdf" class="button" download="">Download<i class="fa fa-download"></i></a>
-															</div>
-														</footer>
-													</section>
-												</div>
-											</section>
-
-
-										</article>
-
-
-								</div>
-
-							</article>
-
-						<!-- Contact -->
-							<article id="contact" class="panel">
-									<h3 class="contact">Interested in working together?</h2>
-									<h3 class="contact">Great! Me too. Let's chat!</h3>
-									<p class="contact"></br> I am currently seeking opportunities to develop either my back-end or front-end skills and am always willing to learn new things.<br />
-									</p>
-									<div class="contact">
-										<a href="mailto:mkgehring1@gmail.com" class="button special contact">Email Me</a>
+									<header>
+										<h2 class="blog">Writing</h2>
+									</header>
+									<div class="row">
+										<div class="col-12">
+											<h3 class="blog link"><strong><a href="#">Explain Like I'm Human <span class="icon fa-external-link"></span></a></strong></h2>
+											<p class="contact">My blog, where I attempt to extract useful tidbits from documentation, break down complex concepts, and consolidate the vast world of technical knowledge into approachable, digestible morsels.</p>
+										</div>
 									</div>
-								 <p class="contact">OR connect with me via social media...</p>
-								 <div class="contact">
-									 <ul class="icons">
-										 <li><a href="https://twitter.com/mkgehring" class="icon circle fa-twitter fa-lg contact" target="_blank"><span class="label">Twitter</span></a></li>
-										 <li><a href="https://www.facebook.com/molly.gehring.1" class="icon circle fa-facebook fa-lg contact" target="_blank"><span class="label">Facebook</span></a></li>
-										 <li><a href="https://github.com/mkg1" class="icon circle fa-github fa-lg contact" target="_blank"><span class="label">Github</span></a></li>
-										 <li><a href="https://www.linkedin.com/in/mollygehring" class="icon circle fa-linkedin fa-lg contact" target="_blank"><span class="label">LinkedIn</span></a></li>
-									 </ul>
-								 </div>
-
+									<div class="row">
+										<div class="col-12">
+											<h3 class="blog link"><strong><a href="https://medium.com/policygenius-stories/building-a-smarter-account-dashboard-with-domain-driven-design-6f831513ade">Building a Smarter Account Dashboard with Domain-Driven Design <span class="icon fa-external-link"></span></a></strong></h2>
+											<p class="contact">How we borrowed principles from domain-driven design to re-build a better dashboard experience at Policygenius.</p>
+										</div>
+									</div>
+								</div>
+								<div class="nav-arrows">
+									<a href="#work"><span class="icon fa-chevron-left"></span></a>
+								</div>
 							</article>
 					</div>
 
