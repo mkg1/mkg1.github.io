@@ -49,6 +49,7 @@ mark {
 .contact {
 	color: #645a64;
 	text-align: center;
+	margin: 16px;
 }
 /* Row */
 
@@ -581,6 +582,11 @@ mark {
 		.nav-arrows > a {
 			text-decoration: none;
 			color: fuchsia;
+			width: 2.75em;
+			height: 2.75em;
+			background: rgba(0, 0, 0, 0.75);
+			padding-top: 10px;
+			text-align: center;
 		}
 
 /* Blog */
@@ -601,7 +607,7 @@ mark {
 
 	h1.blog {
 		font-weight: 200;
-		color: gray;
+		color: #444444;
 	}
 
 	article#blog header, .subheader, ul {
@@ -947,15 +953,15 @@ mark {
 		}
 
 		.button.special {
-			background: rgba(188, 202, 206, 0.25);
-			border-color: #83d3c9;
+			background: #645a64;
+			border-color: #fff;
 			color: #83d3c9 !important;
 			margin-bottom: 1em;
 		}
 
 			.button.special:hover {
 				border-color: inherit !important;
-				color: #fff !important;
+				color: #83d3c9 !important;
 			}
 		@media screen and (max-width: 736px) {
 
@@ -1325,7 +1331,6 @@ mark {
 						margin-top: -1.375em;
 						width: 2.75em;
 						height: 2.75em;
-						background: #000;
 						background: rgba(0, 0, 0, 0.75);
 						color: fuchsia;
 						text-align: center;
